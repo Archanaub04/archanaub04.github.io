@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Toaster />      
-      <BrowserRouter basename="/My-Portfolio/">
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
