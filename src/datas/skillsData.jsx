@@ -13,6 +13,7 @@ import {
 import {
   SiCodeigniter,
   SiPostman,
+  SiRazorpay,
   SiStripe,
   SiTailwindcss,
 } from "react-icons/si";
@@ -168,6 +169,14 @@ export const skills = [
     proficiency: "Advanced",
     category: "services",
     icon: <SiStripe className="text-[#6772E5]" />,
+  },
+  {
+    id: 18,
+    name: "Razorpay",
+    level: 70,
+    proficiency: "Advanced",
+    category: "services",
+    icon: <SiRazorpay className="text-[#0239FF]" />,
   },
 ].map((skill) => ({
   ...skill,
