@@ -4,13 +4,13 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const navItems = [
-  { name: "Home", href: "/My-Portfolio/" },
-  { name: "About", href: "/My-Portfolio/#about" },
-  { name: "Skills", href: "/My-Portfolio/#skills" },
-  { name: "Experience", href: "/My-Portfolio/#experience" },
-  { name: "Education", href: "/My-Portfolio/#education" },
-  { name: "Projects", href: "/My-Portfolio/#projects" },
-  { name: "Contact", href: "/My-Portfolio/#contact" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Experience", href: "/#experience" },
+  { name: "Education", href: "/#education" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 const Navbar = () => {
@@ -30,14 +30,16 @@ const Navbar = () => {
     <nav
       className={cn(
         "fixed w-full z-40 transition-all duration-300",
-        isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
+        isScrolled
+          ? "py-3 bg-background/80 backdrop-blur-md shadow-xs"
+          : "py-5",
       )}
     >
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <Link
           to="/"
-          className="text-xl font-bold text-primary flex items-center mr-20" 
+          className="text-xl font-bold text-primary flex items-center mr-20"
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground">Archana</span> Portfolio
@@ -73,7 +75,7 @@ const Navbar = () => {
             "transition-all duration-300 md:hidden",
             isMenuOpen
               ? "opacity-100 pointer-events-auto"
-              : "opacity-0 pointer-events-none"
+              : "opacity-0 pointer-events-none",
           )}
         >
           <div className="flex flex-col space-y-8 text-xl">

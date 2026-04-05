@@ -29,7 +29,7 @@ Welcome to my personal **React Developer Portfolio** built using **React.js**, *
 
 ## 📸 Live Preview
 
-👉 [View Live Demo](https://archanaub04.github.io/My-Portfolio/)
+👉 [View Live Demo](https://archanaub04.github.io/)
 
 ---
 
