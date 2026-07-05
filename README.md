@@ -6,7 +6,7 @@ Welcome to my personal **React Developer Portfolio** built using **React.js**, *
 
 ---
  
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React.js** – Component-based UI
 - **Tailwind CSS v4** – Utility-first CSS framework
@@ -16,20 +16,20 @@ Welcome to my personal **React Developer Portfolio** built using **React.js**, *
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔥 Animated transitions with Framer Motion  
-- 📱 Fully responsive and mobile-friendly  
-- 🧠 Projects section with dynamic data  
-- 🗂️ Resume and contact integration  
-- 🌙 Light/Dark mode support *(optional)*  
-- 🧭 Smooth scroll and section highlights  
+- Animated transitions with Framer Motion  
+- Fully responsive and mobile-friendly  
+- Projects section with dynamic data  
+- Resume and contact integration  
+- Light/Dark mode support
+- Smooth scroll and section highlights  
 
 ---
 
-## 📸 Live Preview
+## Live Preview
 
-👉 [View Live Demo](https://archanaub04.github.io/)
+[View Live Demo](https://archanaub04.github.io/)
 
 ---
 

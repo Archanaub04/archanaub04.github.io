@@ -11,8 +11,8 @@ export const experiences = [
     color: "#1DA1F2",
     points: [
       "Building modular CMS applications in Laravel with a focus on scalability and maintainability.",
-      "Implemented repository-service architecture and refactored legacy CodeIgniter modules to improve stability and code structure",
-      " Integrated Razorpay payment gateway with secure payment verification and webhook handling for reliable transactions.",
+      "Applied the Repository-Service pattern within a modular architecture to improve code maintainability and separation of concerns.",
+      "Integrated Razorpay payment gateway with secure payment verification and webhook handling forreliable transactions.",
     ],
     technologies: [
       "Laravel",
@@ -39,13 +39,13 @@ export const experiences = [
     logo: "/company_logos/weamse.jfif",
     color: "#F7981F",
     points: [
-      "Built 30+ RESTful API endpoints using Laravel and CodeIgniterto support scalable business workflows",
+      "Built 30+ REST API endpoints using Laravel and CodeIgniterto support scalable business workflows.",
       "Integrated APIs with React using JWT-based authentication for secure frontend-backend communication.",
-      "Applied Repository-Service pattern and SOLID principles to build modular and maintainable systems.",
+      "Applied the Repository-Service pattern and SOLID principles to build modular and maintainable systems.",
       "Implemented asynchronous processing using Laravel Queues and scheduled commands for background automation.",
-      "Integrated Stripe payment gateway with secure webhook validation and idempotent processing,reducing failed transactions by 20%.",
-      "Led development of 3+ API and full-stack projects, increasing feature adoption by 40% and improving workflow efficiency by 35%.",
-      "Optimized MySQL queries using indexing and eagerloading to reduce latency and eliminate N+1 issues.",
+      "Integrated Stripe payment gateway with secure webhook validation and idempotent processing to ensure reliable payment processing.",
+      "Developed 3+ REST API and full-stack projects, delivering new features and improving application workflows.",
+      "Optimized MySQL queries using indexing and eagerloading to reduce latency and eliminate N+1 query issues",
     ],
     technologies: [
       "Laravel",
@@ -77,9 +77,9 @@ export const experiences = [
     logo: "/company_logos/NETPLEX.jfif",
     color: "#2E6862",
     points: [
-      "Worked on and maintained web applications using PHP, Laravel, and CodeIgniter across billing and recharge systems.",
-      "Engineered core features forrecharge and billing modules, improving operational efficiency and user satisfaction.",
-      "Enhanced project functionality by 90% through new feature implementation and structured module maintenance.",
+      "Worked on and maintained web applications using PHP, Laravel, and CodeIgniter across retail ERP and recharge management systems.",
+      "Developed and enhanced billing, inventory, and recharge modules to improve business operations.",
+      "Enhanced project functionality by 90% through new feature development and structured module maintenance.",
       "Resolved 80% of critical production issues, improving system stability and application performance.",
     ],
     technologies: [
